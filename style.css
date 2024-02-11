@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+} 
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/random-black-3d-abstract-ihhd21h8y2fsr9nn.jpg');
+  background-size: cover;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  color: whitesmoke;
+  /* text-align: center; */
+  padding: 5rem 8rem;
+  border-radius: 2rem;
+  /* box styling */
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba(145, 146, 167, 0.267);
+  backdrop-filter: blur( 2px );
+  -webkit-backdrop-filter: blur( 2px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.container h1 {
+  color: #252933;
+}
+
+#quote {
+  font-weight: 700;
+}
+
+#btn {
+  font-weight: 700;
+  color: #212F45;
+  padding: 0.5rem 2rem;
+  border: none;
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba(154, 156, 192, 0.5);
+  backdrop-filter: blur( 2px );
+  -webkit-backdrop-filter: blur( 2px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#btn:hover {
+  box-shadow: 0 8px 32px 0 rgba(89, 180, 233, 0.5);
+  color: #0F5132;
+}
