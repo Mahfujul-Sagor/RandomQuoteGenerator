@@ -16,7 +16,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 800px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,6 +47,7 @@ body {
   color: #212F45;
   padding: 0.5rem 2rem;
   border: none;
+  /* btn styling */
   background: rgba( 255, 255, 255, 0.2 );
   box-shadow: 0 8px 32px 0 rgba(154, 156, 192, 0.5);
   backdrop-filter: blur( 2px );
